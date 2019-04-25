@@ -16,7 +16,7 @@ def employee_discount
 end
 
 def items
-  @@items
+  @@items.select { |item| item}
 end
 
 def add_item(title, price, quantity = 1)
