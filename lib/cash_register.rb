@@ -30,5 +30,9 @@ else
 end
 end
 
+def void_last_transaction
+  @total = @total - apply_discount
+end
+
 
 end
