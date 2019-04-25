@@ -4,7 +4,7 @@ class CashRegister
 
 @@items = []
 
-def initialize(discount = nil)
+def initialize(discount = nil, item)
   @total = 0.00
   @discount = discount
   @items = []
