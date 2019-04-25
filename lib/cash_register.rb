@@ -4,7 +4,7 @@ class CashRegister
 
 @@items = []
 
-def initialize(discount = nil, item)
+def initialize(discount = nil)
   @total = 0.00
   @discount = discount
   @items = []
@@ -16,7 +16,7 @@ def employee_discount
 end
 
 def items
-  @@items.select { |item| item}
+  @items
 end
 
 def add_item(title, price, quantity = 1)
