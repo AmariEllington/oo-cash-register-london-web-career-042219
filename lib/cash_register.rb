@@ -8,6 +8,7 @@ def initialize(discount = nil)
   @total = 0.00
   @discount = discount
   @items = []
+  @@items << self
 end
 
 def employee_discount
