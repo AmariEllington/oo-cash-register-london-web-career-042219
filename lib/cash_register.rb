@@ -31,7 +31,7 @@ end
 end
 
 def void_last_transaction
-  @total = @total.to_i - employee_discount
+  @total = @total.to_i - apply_discount
 end
 
 
