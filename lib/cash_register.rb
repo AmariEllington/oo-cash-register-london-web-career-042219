@@ -14,7 +14,7 @@ def employee_discount
 end
 
 def items
-  add_item
+  @@items
 end
 
 def add_item(title, price, quantity = 1)
