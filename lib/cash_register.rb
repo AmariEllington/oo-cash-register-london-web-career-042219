@@ -20,7 +20,7 @@ end
 @total += price*quantity
     @last_transaction_amount = @total
     @total
-  end
+
 end
 
 
