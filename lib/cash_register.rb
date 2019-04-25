@@ -14,7 +14,7 @@ def employee_discount
   self.discount
 end
 
-def item
+def items
   @@items
 end
 
